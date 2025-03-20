@@ -23,8 +23,8 @@
 #define ON                                      	      				1
 #define OFF                                               				0
 
-#define RESONANT_SWLS_INPUT_OVERVOLTAGE_ALM_LIM           				320.0
-#define RESONANT_SWLS_INPUT_OVERVOLTAGE_ITLK_LIM          				330.0
+#define RESONANT_SWLS_INPUT_OVERVOLTAGE_ALM_LIM           				360.0
+#define RESONANT_SWLS_INPUT_OVERVOLTAGE_ITLK_LIM          				370.0
 
 #define RESONANT_SWLS_OUTPUT_OVERVOLTAGE_ALM_LIM          				10.5
 #define RESONANT_SWLS_OUTPUT_OVERVOLTAGE_ITLK_LIM         				11.0
@@ -80,7 +80,7 @@
 #define LA_Burden_Resistor                      				50.0
 
 //Debouncing delay_us
-#define LA_Delay                                				3
+#define LA_Delay                                				10
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 
