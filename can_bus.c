@@ -990,12 +990,12 @@ void send_data_message(uint8_t var)
 	}
 	case 2:
 	{
-		message_data[0] = g_controller_iib.iib_signals[4].u8[0]; // resonant_swls.TempHeatSinkTransformerPfc.f
+		message_data[0] = g_controller_iib.iib_signals[4].u8[0]; // resonant_swls.TempHeatSinkMainBoard.f
 		message_data[1] = g_controller_iib.iib_signals[4].u8[1]; //
 		message_data[2] = g_controller_iib.iib_signals[4].u8[2]; //
 		message_data[3] = g_controller_iib.iib_signals[4].u8[3]; //
 
-		message_data[4] = g_controller_iib.iib_signals[5].u8[0]; // resonant_swls.TempOutputInductor.f
+		message_data[4] = g_controller_iib.iib_signals[5].u8[0]; // resonant_swls.TempHeatSinkTransformer.f
 		message_data[5] = g_controller_iib.iib_signals[5].u8[1]; //
 		message_data[6] = g_controller_iib.iib_signals[5].u8[2]; //
 		message_data[7] = g_controller_iib.iib_signals[5].u8[3]; //
@@ -1009,7 +1009,7 @@ void send_data_message(uint8_t var)
 		message_data[2] = g_controller_iib.iib_signals[6].u8[2]; //
 		message_data[3] = g_controller_iib.iib_signals[6].u8[3]; //
 
-		message_data[4] = g_controller_iib.iib_signals[7].u8[0]; // resonant_swls.TempHeatSinkClamp.f
+		message_data[4] = g_controller_iib.iib_signals[7].u8[0]; // resonant_swls.TempOutputInductor.f
 		message_data[5] = g_controller_iib.iib_signals[7].u8[1]; //
 		message_data[6] = g_controller_iib.iib_signals[7].u8[2]; //
 		message_data[7] = g_controller_iib.iib_signals[7].u8[3]; //
