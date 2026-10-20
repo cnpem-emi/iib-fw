@@ -338,8 +338,8 @@ void fac_cmd_application_readings()
     	if (fac_cmd.TempHeatSinkItlkSts)         fac_cmd.InterlocksRegister.u32 |= FAC_CMD_HS_OVERTEMP_ITLK;
     	if (fac_cmd.MainOverCurrentItlkSts)      fac_cmd.InterlocksRegister.u32 |= FAC_CMD_MAIN_OVER_CURRENT_ITLK;
     	if (fac_cmd.EmergencyButtonItlkSts)      fac_cmd.InterlocksRegister.u32 |= FAC_CMD_EMERGENCY_BUTTON_ITLK;
-    	if (fac_cmd.MainUnderVoltageItlkSts)     fac_cmd.InterlocksRegister.u32 |= FAC_CMD_MAIN_UNDER_VOLTAGE_ITLK;
     	if (fac_cmd.MainOverVoltageItlkSts)      fac_cmd.InterlocksRegister.u32 |= FAC_CMD_MAIN_OVER_VOLTAGE_ITLK;
+    	if (fac_cmd.MainUnderVoltageItlkSts)     fac_cmd.InterlocksRegister.u32 |= FAC_CMD_MAIN_UNDER_VOLTAGE_ITLK;
     	if (fac_cmd.GroundLeakageItlkSts)        fac_cmd.InterlocksRegister.u32 |= FAC_CMD_GROUND_LKG_ITLK;
     	if (fac_cmd.BoardTemperatureItlkSts)     fac_cmd.InterlocksRegister.u32 |= FAC_CMD_BOARD_IIB_OVERTEMP_ITLK;
     	if (fac_cmd.RelativeHumidityItlkSts)     fac_cmd.InterlocksRegister.u32 |= FAC_CMD_BOARD_IIB_OVERHUMIDITY_ITLK;

@@ -152,8 +152,8 @@ typedef volatile struct
 #define FAC_CMD_HS_OVERTEMP_ITLK                        0x00000040
 #define FAC_CMD_MAIN_OVER_CURRENT_ITLK                  0x00000080
 #define FAC_CMD_EMERGENCY_BUTTON_ITLK                   0x00000100
-#define FAC_CMD_MAIN_UNDER_VOLTAGE_ITLK                 0x00000200
-#define FAC_CMD_MAIN_OVER_VOLTAGE_ITLK                  0x00000400
+#define FAC_CMD_MAIN_OVER_VOLTAGE_ITLK                  0x00000200
+#define FAC_CMD_MAIN_UNDER_VOLTAGE_ITLK                 0x00000400
 #define FAC_CMD_GROUND_LKG_ITLK                         0x00000800
 #define FAC_CMD_BOARD_IIB_OVERTEMP_ITLK                 0x00001000
 #define FAC_CMD_BOARD_IIB_OVERHUMIDITY_ITLK             0x00002000
